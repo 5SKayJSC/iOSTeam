@@ -8,7 +8,7 @@
 
 ### Link seminar đăng ký vào mỗi tuần. <a href="https://docs.google.com" style="color:blue">Link Seminar</a>
 
-### Link quản xem serminar vs danh sách câu hỏi không cần login vào driver cho Team lead và Team support. <a href="google.com.vn" style="color:blue">Link Manager</a>
+### Link quản lý xem serminar vs danh sách câu hỏi không cần login vào driver cho Team lead và Team support. <a href="google.com.vn" style="color:blue">Link Manager</a>
 
 ## Chuyên mục post câu hỏi
 ### Trong thời gian làm dự án có nhiều vướng mắc Thực hiện theo các bước sau
