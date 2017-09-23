@@ -4,11 +4,11 @@
 
 <img src="ImageUsingReadMe/IOS-Android_5Skay.jpg" alt="IOS-Android_5Skay logo" style="width:304px;height:228px;">
 
-### Mỗi lần mọi người add câu hỏi thì thêm luôn vào file excel online này để Team Leader quản lý. <a href="https://docs.google.com/spreadsheets/d/13Cyl6XwB7esTG-vJRsv2PEBb7r2vKOklR-d-nVb7VPA/edit?usp=sharing" style="color:blue">Link câu hỏi</a>
+### Mỗi lần mọi người add câu hỏi thì thêm luôn vào file excel online này để Team Leader quản lý. <a href="https://docs.google.com/spreadsheets/d/13Cyl6XwB7esTG-vJRsv2PEBb7r2vKOklR-d-nVb7VPA/edit?usp=sharing" style="color:blue"  target="_blank">Link câu hỏi</a>
 
-### Link seminar đăng ký vào mỗi tuần. <a href="https://docs.google.com" style="color:blue">Link Seminar</a>
+### Link seminar đăng ký vào mỗi tuần. <a href="https://docs.google.com" style="color:blue" target="_blank">Link Seminar</a>
 
-### Link quản lý xem serminar vs danh sách câu hỏi không cần login vào driver cho Team lead và Team support. <a href="google.com.vn" style="color:blue">Link Manager</a>
+### Link quản lý xem serminar vs danh sách câu hỏi không cần login vào driver cho Team lead và Team support. <a href="google.com.vn" style="color:blue" target="_blank">Link Manager</a>
 
 ## Chuyên mục post câu hỏi
 ### Trong thời gian làm dự án có nhiều vướng mắc Thực hiện theo các bước sau
@@ -17,7 +17,7 @@
 - Nếu đang ở nhà thì đăng lên issues của mục theo các bước sau.
 <br>
 <img src="ImageUsingReadMe/CreateIssue.jpg" alt="create issue" style="width:304px;height:228px;">
-Trong câu hỏi bạn có thể dùng 1 số tag của Html: <a href="https://daringfireball.net/projects/markdown/syntax#html" style="color:blue">Xem ở đây</a>
+Trong câu hỏi bạn có thể dùng 1 số tag của Html: <a href="https://daringfireball.net/projects/markdown/syntax#html" style="color:blue" target="_blank">Xem ở đây</a>
 Các tag được hỗ trợ : h1 h2 h3 h4 h5 h6 h7 h8 br b i strong em a pre code img tt div ins del sup sub p ol ul table thead tbody tfoot blockquote dl dt dd kbd q samp var hr ruby rt rp li tr td th s strike summary details 
 
 <img src="ImageUsingReadMe/CreateQuestion.jpg" alt="create issue" style="width:304px;height:228px;">
