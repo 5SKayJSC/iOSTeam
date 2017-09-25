@@ -1,6 +1,6 @@
 ## Trang quản lý câu hỏi (issues) và seminar của Các thành viên team IOS-Android_5Skay
 
-### Mỗi thành viên trong team IOS-Android_5Skay có quyền truy cập vào trang github này để đặt cẩu hỏi cũng như đăng ký seminar trong tháng hoặc vài tháng tiép sau đó. Các câu hỏi sẽ được tem trainning (A Huy, An gầy) hoặc các thành viên trong nhóm trả lời, góp ý. Có thể lúc họp seminar mọi người thường trầm nhưng chắc khi gõ phím online thì chắc có thể thể hiện được hết bản thân. Ngoài ra nếu có nhiều câu hỏi khó thì anh lít đờ Quỳnh (link follow : https://www.facebook.com/quynh.nguyenvan.399) sẽ tham gia trả lời và support.
+### Mỗi thành viên trong team IOS-Android_5Skay có quyền truy cập vào trang github này để đặt câu hỏi cũng như đăng ký seminar trong tháng hoặc vài tháng tiếp sau đó. Các câu hỏi sẽ được tem trainning (A Huy, An gầy) hoặc các thành viên trong nhóm trả lời, góp ý. Có thể lúc họp seminar mọi người thường trầm nhưng chắc khi gõ phím online thì chắc có thể thể hiện được hết bản thân. Ngoài ra nếu có nhiều câu hỏi khó thì anh lít đờ Quỳnh (link follow : https://www.facebook.com/quynh.nguyenvan.399) sẽ tham gia trả lời và support.
 
 <img src="ImageUsingReadMe/IOS-Android_5Skay.jpg" alt="IOS-Android_5Skay logo" style="width:304px;height:228px;">
 
