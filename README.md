@@ -4,9 +4,9 @@
 
 <img src="ImageUsingReadMe/IOS-Android_5Skay.jpg" alt="IOS-Android_5Skay logo" style="width:304px;height:228px;">
 
-### Mỗi lần mọi người add câu hỏi thì thêm luôn vào file excel online này để Team Leader quản lý. <a href="https://docs.google.com/spreadsheets/d/13Cyl6XwB7esTG-vJRsv2PEBb7r2vKOklR-d-nVb7VPA/edit?usp=sharing" style="color:blue"  target="_blank">Link câu hỏi</a>
+### Mỗi lần mọi người add câu hỏi thì thêm luôn vào file excel online này để Team Leader quản lý. <a href="https://docs.google.com/spreadsheets/d/1MlrLFxnyOIQk2suPsOOQNH9wnj3T9zu7qnoio1w4bXM/edit#gid=0" style="color:blue"  target="_blank">Link câu hỏi</a>
 
-### Link seminar đăng ký vào mỗi tuần. <a href="https://docs.google.com" style="color:blue" target="_blank">Link Seminar</a>
+### Link seminar đăng ký vào mỗi tuần. <a href="https://docs.google.com/spreadsheets/d/1MlrLFxnyOIQk2suPsOOQNH9wnj3T9zu7qnoio1w4bXM/edit#gid=630744880" style="color:blue" target="_blank">Link Seminar</a>
 
 ### Link quản lý xem serminar vs danh sách câu hỏi không cần login vào driver cho Team lead và Team support. <a href="https://forumhumgeduvn.000webhostapp.com/5skay/5Skay_manager.html" target="_blank" style="color:blue">Link Manager</a>
 
