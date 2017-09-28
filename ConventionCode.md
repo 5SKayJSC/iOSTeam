@@ -171,9 +171,12 @@ Không để trong class controller, mà tổ chức theo đúng convention, cà
 }</pre></div>
 <ul>
 <p><li>Cách đặt tên biến và hàm <br>
-Sử dụng quy tắc "Con lạc đà" cho đặt tên biến và hàm <br>
-Đối với các biến có tiền tố ngắn ví dụ như : label , .. thì cần viết rõ ràng toàn bộ tiền tố . Các biến có tiền tố dài sẽ được quy định quy tắc viết tắt . <br>
-Đối với hàm cần đảm bảo tên hàm không quá dài cũng như thân hàm cần đảm bảo không dài quá 1 trang trong trình duyệt .
+- Sử dụng quy tắc "Con lạc đà" cho đặt tên biến và hàm <br>
+- Format đặt tên biến: Tiền tố class + Tên tiếng Anh có nghĩa. Ví dụ: viewPlayer, imageThumb, labelTitle,... <br>
+- Tiền tố class đặt theo rule:
+    + Các class có tên ngắn như: UIView, UILabel, UIImage... => thống nhất bỏ UI đi. <br>
+    + Các class có tên dài như: UICollectionView, UICollectionViewController, UITableViewHeaderFooterView... => mọi người có thể đặt thế nào cũng được nhưng phải dễ hiểu => gần với tên class gốc. Ví dụ: UICollectionViewController có thể đặt là: collectionVC, collecVC... <br>
+- Đối với hàm cần đảm bảo tên hàm không quá dài cũng như thân hàm cần đảm bảo không dài quá 1 trang trong trình duyệt .
 </ul>
 <p><h1>File Pod</h1></p>
 <p>Chia thành từng cụm chức năng, Comment bởi dấu '#', mỗi cụm cách nhau bở một dòng trống. Trong mỗi cụm, sắp xếp theo thứ tự abc, ví dụ:</p>
