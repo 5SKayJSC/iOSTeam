@@ -1,0 +1,39 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target '5SKayBaseSwift' do
+    # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+    use_frameworks!
+    
+    # Pods for 5SKayBaseSwift
+    
+    #UI
+    pod 'PopupDialog'
+    pod 'ESPullToRefresh'
+    pod 'SnapKit', '~> 3.2.0'
+    pod 'NVActivityIndicatorView'
+    
+    
+    #Extension
+    pod 'XLSwiftKit'
+    
+    #Services & Network
+    pod 'Alamofire'
+    pod 'Kingfisher', '~> 3.9.1'
+    pod 'SDWebImage', '~> 4.0'
+    pod 'ReachabilitySwift' , '~>3.0'
+    pod 'FilesProvider'
+    
+    
+    #Database
+    pod 'SwiftyJSON'
+    pod 'RealmSwift'
+    
+    #Language
+    pod 'Localize-Swift', '~> 1.7'
+    
+    
+    #Ads
+    pod 'Google-Mobile-Ads-SDK'
+    
+end
