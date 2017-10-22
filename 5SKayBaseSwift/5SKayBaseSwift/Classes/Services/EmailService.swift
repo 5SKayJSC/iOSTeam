@@ -43,8 +43,8 @@ class EmailService: NSObject {
             AppDelegate.shared.topMost.present(composeVC, animated: true, completion: nil)
         }
         else {
-            UtilManage.showAlert(title: "Notify", message: "You have not installed email.", type: .ok, complete: nil)
-        }
+            UIAlertController.customInit().showDefault(title: "Notify", message: "You have not installed email.")
+                    }
     }
 }
 

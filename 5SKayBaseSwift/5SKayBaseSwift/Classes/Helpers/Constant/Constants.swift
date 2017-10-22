@@ -10,35 +10,17 @@
 import Foundation
 import UIKit
 import Localize_Swift
-import RealmSwift
-import ReachabilitySwift
-import NVActivityIndicatorView
 
 
 // MARK: CompletionHandler
 typealias CompletionHandler = (Bool, Int, Any?) -> ()
 
 // MARK: - Public constant
-let realmInstant = try! Realm()
 
 // Standard UserDefault
 public let SETTINGs = UserDefaults.standard
 
-// define font
-public let kRegularFont = UIFont(name: "Hiragino Sans", size: 13)
-public let kBarButtonItemFont = UIFont.systemFont(ofSize: 15)
-public let kTitleControllerFont = UIFont.boldSystemFont(ofSize: 17)
 
-// Button color
-public let kButtonFavoriteColor = UIColor(234, 83, 72)
-public let kButtonUnFavoriteColor = UIColor(67, 67, 67)
-public let kButtonBackgroundColor = UIColor(245, 242, 230)
-public let kTextColor = UIColor(hexString: "#383838")
-public let kMainColor = UIColor(hexString: "#2597DC")
-public let kRedColor = UIColor(hexString: "#E34D3F")
-public let kHeaderColor = UIColor(hexString: "#2597dc")
-public let kAvatarBorderColor = UIColor(hexString: "#bbe8ff")
-public let kLineColor = UIColor(hexString: "#CECED2")
 
 // App Url
 public let kAppStoreID  = 1152372911 // Change this one to my app ID
@@ -140,16 +122,5 @@ func setLanguage(language: String) {
     if local.contains(language) {
         Localize.setCurrentLanguage(language)
     }
-}
-
-// MARK: - Loading func
-let activityData = ActivityData(size: nil, message: nil, messageFont: nil, type: .ballClipRotate, color: nil, padding: nil, displayTimeThreshold: 30, minimumDisplayTime: nil)
-
-func showLoading() {
-    NVActivityIndicatorPresenter.sharedInstance.startAnimating(activityData)
-}
-
-func hideLoading() {
-    NVActivityIndicatorPresenter.sharedInstance.stopAnimating()
 }
 

@@ -7,8 +7,6 @@
 //
 
 import Foundation
-import ReachabilitySwift
-import RealmSwift
 import UIKit
 
 @objc class  Utilities: NSObject {
@@ -97,29 +95,7 @@ import UIKit
         return presentedVC
     }
     
-    static func showAlertView(_ title: String?, message: String?) {
-        var presentedVC = UIApplication.shared.keyWindow?.rootViewController
-        while let pVC = presentedVC?.presentedViewController {
-            presentedVC = pVC
-        }
-        
-        if presentedVC == nil {
-            print("UIAlertController Error: You don't have any views set. You may be calling in viewdidload. Try viewdidappear.")
-        } else {
-            if presentedVC is UIAlertController {
-                print("Alert not necessary, already on the screen !")
-            } else {
-                let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
-                
-                let okAction = UIAlertAction(title: "OK", style:.default) { (action) in
-                    // write code here
-                }
-                alertController.addAction(okAction)
-                
-                presentedVC!.present(alertController, animated: true, completion: nil)
-            }
-        }
-    }
+    
     
     static func loadImageFromUrl(_ url: String, view: UIImageView) {
         
@@ -261,26 +237,7 @@ import UIKit
      
      - returns: NetworkStatus
      */
-    static func checkNetworkStatus() -> Bool {
-        let reachability = Reachability()!
-        let networkStatus = reachability.currentReachabilityStatus
-        var isAvailable  = false
-        
-        switch networkStatus {
-        case .notReachable:
-            isAvailable = false
-            break
-        case .reachableViaWiFi:
-            isAvailable = true
-            break
-        case .reachableViaWWAN:
-            isAvailable = true
-            break
-        }
-        
-        return isAvailable
-    }
-    
+     
     static func getTopViewController() -> UIViewController? {
         if let currentVC = Utilities.getCurrentViewController() {
             return currentVC

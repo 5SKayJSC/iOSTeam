@@ -8,26 +8,16 @@ target '5SKayBaseSwift' do
     # Pods for 5SKayBaseSwift
     
     #UI
-    pod 'PopupDialog'
-    pod 'ESPullToRefresh'
     pod 'SnapKit', '~> 3.2.0'
-    pod 'NVActivityIndicatorView'
     
     
     #Extension
     pod 'XLSwiftKit'
     
     #Services & Network
-    pod 'Alamofire'
-    pod 'Kingfisher', '~> 3.9.1'
-    pod 'SDWebImage', '~> 4.0'
-    pod 'ReachabilitySwift' , '~>3.0'
-    pod 'FilesProvider'
-    
     
     #Database
     pod 'SwiftyJSON'
-    pod 'RealmSwift'
     
     #Language
     pod 'Localize-Swift', '~> 1.7'

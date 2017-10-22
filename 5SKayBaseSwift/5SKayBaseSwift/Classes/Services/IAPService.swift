@@ -161,7 +161,7 @@ class IAPService: NSObject {
             }
         }
         else {
-            UtilManage.showAlert(message: "Purchases are disabled in your device!", type: .ok, complete: nil)
+            UIAlertController.customInit().showDefault(title: "", message: "Purchases are disabled in your device!")
         }
     }
     
@@ -173,7 +173,7 @@ class IAPService: NSObject {
             loadingView.show()
         }
         else {
-            UtilManage.showAlert(message: "Purchases are disabled in your device!", type: .ok, complete: nil)
+            UIAlertController.customInit().showDefault(title: "", message: "Purchases are disabled in your device!")
         }
     }
     
@@ -237,7 +237,7 @@ extension IAPService: SKPaymentTransactionObserver {
     
     func paymentQueue(_ queue: SKPaymentQueue, restoreCompletedTransactionsFailedWithError error: Error) {
         loadingView.dismiss()
-        UtilManage.showAlert(title: "Restore In App Purchase Fail", message: error.localizedDescription, type: .ok, complete: nil)
+         UIAlertController.customInit().showDefault(title: "Restore In App Purchase Fail", message:  error.localizedDescription)
     }
     
     func paymentQueueRestoreCompletedTransactionsFinished(_ queue: SKPaymentQueue) {
@@ -259,7 +259,8 @@ extension IAPService: SKPaymentTransactionObserver {
         }
         
         if !failed {
-            UtilManage.showAlert(title: "Restore In App Purchase success", message: "You've successfully restored your purchase!", type: .ok, complete: nil)
+                 UIAlertController.customInit().showDefault(title: "Restore In App Purchase Fail", message: "You've successfully restored your purchase!")
+       
         }
     }
     
@@ -295,7 +296,7 @@ extension IAPService: SKPaymentTransactionObserver {
         SKPaymentQueue.default().finishTransaction(transaction)
         
         if message != "" {
-            UtilManage.showAlert(title: "", message: message, type: .ok, complete: nil)
+                UIAlertController.customInit().showDefault(title: "", message: message)
         }
     }
     
@@ -319,7 +320,7 @@ extension IAPService: SKPaymentTransactionObserver {
                 UserDefaults.standard.set(true, forKey: trans.transactionIdentifier!)
                 UserDefaults.standard.synchronize()
                 
-                UtilManage.showAlert(title: "Payment In App Purchase success", message: "You've successfully unlocked the Premium version!", type: .ok, complete: nil)
+                UIAlertController.customInit().showDefault(title: "Payment In App Purchase success", message: "You've successfully unlocked the Premium version!")
             }
             else if item.type == .consumable && item.identifier == trans.payment.productIdentifier {
                 

@@ -1,60 +1,24 @@
 PODS:
-  - Alamofire (4.5.1)
-  - ESPullToRefresh (2.6)
-  - FilesProvider (0.20.1)
   - Google-Mobile-Ads-SDK (7.24.1)
-  - Kingfisher (3.9.1)
   - Localize-Swift (1.7.1)
-  - NVActivityIndicatorView (4.0.0):
-    - NVActivityIndicatorView/Presenter (= 4.0.0)
-  - NVActivityIndicatorView/Presenter (4.0.0)
-  - PopupDialog (0.6.0)
-  - ReachabilitySwift (3)
-  - Realm (2.10.2):
-    - Realm/Headers (= 2.10.2)
-  - Realm/Headers (2.10.2)
-  - RealmSwift (2.10.2):
-    - Realm (= 2.10.2)
-  - SDWebImage (4.1.2):
-    - SDWebImage/Core (= 4.1.2)
-  - SDWebImage/Core (4.1.2)
   - SnapKit (3.2.0)
   - SwiftyJSON (3.1.4)
   - XLSwiftKit (2.0.1)
 
 DEPENDENCIES:
-  - Alamofire
-  - ESPullToRefresh
-  - FilesProvider
   - Google-Mobile-Ads-SDK
-  - Kingfisher (~> 3.9.1)
   - Localize-Swift (~> 1.7)
-  - NVActivityIndicatorView
-  - PopupDialog
-  - ReachabilitySwift (~> 3.0)
-  - RealmSwift
-  - SDWebImage (~> 4.0)
   - SnapKit (~> 3.2.0)
   - SwiftyJSON
   - XLSwiftKit
 
 SPEC CHECKSUMS:
-  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
-  ESPullToRefresh: 85f4990acf87f78c6a1466bbbee7a75d7de24db9
-  FilesProvider: c88f6eff9bba7e551745bbbb08760351b4951448
   Google-Mobile-Ads-SDK: ed8004a7265b424568dc84f3d2bbe3ea3fff958f
-  Kingfisher: 6729a0baaa458245bfb8cd5a1296c71c10d6eb6c
   Localize-Swift: 6cabc1087c0e910e77bfa87c2ed3f65c80c0b2df
-  NVActivityIndicatorView: 54c9b93b6f25a4f467512680c0c90c09a1095cf2
-  PopupDialog: 687af43af0f7b89948cd411ac701865f931bd6dc
-  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
-  Realm: 0ef72b837fb67e9f4b098bac771ddd72c7fdbb69
-  RealmSwift: 07a9ae0505091eda6b2ee7c190c3786d6e90a7b0
-  SDWebImage: cb6f9f266a9977741efcbc21e618e8be3734c774
   SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
   XLSwiftKit: aaf29528b340180a5d7b9c7e226c0e8fe188f3f5
 
-PODFILE CHECKSUM: 98e92143bd9fb383fb6f5f84ca85a701c9b03e13
+PODFILE CHECKSUM: d80ef9189c9fcc1485581bfc9fc5e6033b41b545
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.1

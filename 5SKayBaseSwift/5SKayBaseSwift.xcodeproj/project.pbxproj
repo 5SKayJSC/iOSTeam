@@ -22,7 +22,6 @@
 		5B1DFA131F91A49200DB547B /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DFA121F91A49200DB547B /* UIColorExtension.swift */; };
 		5B1DFA151F91A4E400DB547B /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DFA141F91A4E400DB547B /* UIImageExtension.swift */; };
 		5B1DFA171F91A4FA00DB547B /* UIScreenExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DFA161F91A4FA00DB547B /* UIScreenExtension.swift */; };
-		5B1DFA191F91A50900DB547B /* UIToobarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DFA181F91A50900DB547B /* UIToobarExtension.swift */; };
 		5B1DFA1B1F91A51500DB547B /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DFA1A1F91A51500DB547B /* UIViewExtension.swift */; };
 		5B1DFA1D1F91A53400DB547B /* BLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DFA1C1F91A53400DB547B /* BLog.swift */; };
 		5B1DFA1F1F91A54700DB547B /* AboutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DFA1E1F91A54700DB547B /* AboutApp.swift */; };
@@ -69,7 +68,6 @@
 		5B1DFA121F91A49200DB547B /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		5B1DFA141F91A4E400DB547B /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		5B1DFA161F91A4FA00DB547B /* UIScreenExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScreenExtension.swift; sourceTree = "<group>"; };
-		5B1DFA181F91A50900DB547B /* UIToobarExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIToobarExtension.swift; sourceTree = "<group>"; };
 		5B1DFA1A1F91A51500DB547B /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		5B1DFA1C1F91A53400DB547B /* BLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLog.swift; sourceTree = "<group>"; };
 		5B1DFA1E1F91A54700DB547B /* AboutApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutApp.swift; sourceTree = "<group>"; };
@@ -194,7 +192,6 @@
 				5B1DFA121F91A49200DB547B /* UIColorExtension.swift */,
 				5B1DFA141F91A4E400DB547B /* UIImageExtension.swift */,
 				5B1DFA161F91A4FA00DB547B /* UIScreenExtension.swift */,
-				5B1DFA181F91A50900DB547B /* UIToobarExtension.swift */,
 				5B1DFA1A1F91A51500DB547B /* UIViewExtension.swift */,
 				5B1DFA3D1F91BD7C00DB547B /* DictionaryExtension.swift */,
 			);
@@ -428,7 +425,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		951BA5100618F35C0D4E2728 /* [CP] Embed Pods Frameworks */ = {
@@ -483,7 +480,6 @@
 				5BF758381F96506500FDB917 /* IAPCollectionCell_1.swift in Sources */,
 				5B1DFA071F91A42600DB547B /* ExpandableLabel.swift in Sources */,
 				5BF7582D1F964C8500FDB917 /* IAPReceiptService.swift in Sources */,
-				5B1DFA191F91A50900DB547B /* UIToobarExtension.swift in Sources */,
 				5BF7582A1F964B7D00FDB917 /* BaseReusableCollectionView.swift in Sources */,
 				5B1DFA1B1F91A51500DB547B /* UIViewExtension.swift in Sources */,
 				5BF7583D1F96506500FDB917 /* IAPViewController.swift in Sources */,
