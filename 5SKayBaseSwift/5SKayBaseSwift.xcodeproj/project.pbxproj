@@ -151,9 +151,9 @@
 		5B1DF9ED1F91A2F000DB547B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				ADE314521FA1D3B700928007 /* Models */,
 				5B1DF9EE1F91A2F000DB547B /* Extensions */,
 				5B1DF9F11F91A2F000DB547B /* Helpers */,
-				5B1DF9F41F91A2F000DB547B /* Models */,
 				5B1DF9F51F91A2F000DB547B /* Objects */,
 				5B1DF9F61F91A2F000DB547B /* Services */,
 				5B1DF9F71F91A2F000DB547B /* ViewControllers */,
@@ -225,13 +225,6 @@
 				5B3A19541F9451F800F86CE8 /* UtilManage.swift */,
 			);
 			path = Managers;
-			sourceTree = "<group>";
-		};
-		5B1DF9F41F91A2F000DB547B /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		5B1DF9F51F91A2F000DB547B /* Objects */ = {
@@ -340,6 +333,13 @@
 				8F1DD7FF05EE7B785C68B334 /* Pods-5SKayBaseSwift.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		ADE314521FA1D3B700928007 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
