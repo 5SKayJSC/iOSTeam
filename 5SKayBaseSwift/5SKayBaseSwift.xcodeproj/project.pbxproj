@@ -137,8 +137,8 @@
 		5B1DF9DA1F91A22100DB547B /* 5SKayBaseSwift */ = {
 			isa = PBXGroup;
 			children = (
+				AD1ACE771FA81684008FD3A5 /* Libraries */,
 				5B1DF9ED1F91A2F000DB547B /* Classes */,
-				5B1DF9F91F91A2F000DB547B /* Libraries */,
 				5B1DF9FA1F91A2F000DB547B /* Resources */,
 				5B1DF9DB1F91A22100DB547B /* AppDelegate.swift */,
 				5B1DF9E21F91A22100DB547B /* Assets.xcassets */,
@@ -151,10 +151,10 @@
 		5B1DF9ED1F91A2F000DB547B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				AD1ACE761FA8166A008FD3A5 /* Objects */,
 				ADE314521FA1D3B700928007 /* Models */,
 				5B1DF9EE1F91A2F000DB547B /* Extensions */,
 				5B1DF9F11F91A2F000DB547B /* Helpers */,
-				5B1DF9F51F91A2F000DB547B /* Objects */,
 				5B1DF9F61F91A2F000DB547B /* Services */,
 				5B1DF9F71F91A2F000DB547B /* ViewControllers */,
 				5B1DFA281F91B14200DB547B /* Views */,
@@ -165,17 +165,9 @@
 		5B1DF9EE1F91A2F000DB547B /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				5B1DF9EF1F91A2F000DB547B /* Common */,
 				5B1DF9F01F91A2F000DB547B /* Extension */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		5B1DF9EF1F91A2F000DB547B /* Common */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Common;
 			sourceTree = "<group>";
 		};
 		5B1DF9F01F91A2F000DB547B /* Extension */ = {
@@ -227,13 +219,6 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
-		5B1DF9F51F91A2F000DB547B /* Objects */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Objects;
-			sourceTree = "<group>";
-		};
 		5B1DF9F61F91A2F000DB547B /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -255,36 +240,15 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		5B1DF9F91F91A2F000DB547B /* Libraries */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Libraries;
-			sourceTree = "<group>";
-		};
 		5B1DF9FA1F91A2F000DB547B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5B1DF9FB1F91A2F000DB547B /* Files */,
-				5B1DF9FC1F91A2F000DB547B /* Fonts */,
+				AD1ACE781FA816AE008FD3A5 /* Files */,
+				AD1ACE791FA816AE008FD3A5 /* Fonts */,
+				AD1ACE7A1FA816AE008FD3A5 /* Plists */,
 				5B1DF9FD1F91A2F000DB547B /* Localizes */,
-				5B1DF9FE1F91A2F000DB547B /* Plists */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		5B1DF9FB1F91A2F000DB547B /* Files */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Files;
-			sourceTree = "<group>";
-		};
-		5B1DF9FC1F91A2F000DB547B /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Fonts;
 			sourceTree = "<group>";
 		};
 		5B1DF9FD1F91A2F000DB547B /* Localizes */ = {
@@ -293,13 +257,6 @@
 				5B1DFA001F91A31700DB547B /* Localizable.strings */,
 			);
 			path = Localizes;
-			sourceTree = "<group>";
-		};
-		5B1DF9FE1F91A2F000DB547B /* Plists */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Plists;
 			sourceTree = "<group>";
 		};
 		5B1DFA281F91B14200DB547B /* Views */ = {
@@ -333,6 +290,41 @@
 				8F1DD7FF05EE7B785C68B334 /* Pods-5SKayBaseSwift.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD1ACE761FA8166A008FD3A5 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		AD1ACE771FA81684008FD3A5 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		AD1ACE781FA816AE008FD3A5 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		AD1ACE791FA816AE008FD3A5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		AD1ACE7A1FA816AE008FD3A5 /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Plists;
 			sourceTree = "<group>";
 		};
 		ADE314521FA1D3B700928007 /* Models */ = {
